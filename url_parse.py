@@ -39,7 +39,7 @@ def parse_url(url):
         host = rest[:slash_index]
         path = rest[slash_index:]
     
-    return protocol, host, path
+    return protocol, port, host, path
 
 :
 # url = "http://www.someSchool.edu/someDepartment/picture.gif"
