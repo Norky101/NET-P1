@@ -41,7 +41,7 @@ def parse_url(url):
     
     return protocol, port, host, path
 
-:
+
 # url = "http://www.someSchool.edu/someDepartment/picture.gif"
 # protocol, host, path = parse_url(url)
 # print(f"Protocol: {protocol}")
